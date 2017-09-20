@@ -9,9 +9,22 @@ body {
 
 .header {
   background: black;
-  height: 100px;
+  background: linear-gradient(#2B2B2B, black);
+  min-height: 105px;
 }
 
 .inlog {
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
   font-size: 1.1em;
+}
+
+.inlog a {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.logo {
+  margin-top: -15px;
 }
